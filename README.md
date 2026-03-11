@@ -1,16 +1,30 @@
 # Multi-Mode CO₂ Emission Calculator
 
-A web-based tool that calculates carbon emissions for different transportation modes such as car, bus, train, and flight.
+A Python-based graphical application that calculates carbon dioxide (CO₂) emissions for different transportation modes including land, air, water, and rail.
 
 ## Features
-- Compare emissions across transport modes
-- Calculate CO₂ output based on distance
-- Helps users choose eco-friendly travel options
+- Select transport category (Land, Air, Water, Rail)
+- Choose specific vehicle types
+- Calculate CO₂ emissions based on travel distance
+- Supports passenger-based emission calculations
+- Provides eco-friendly recommendations (e.g., Bicycle → Zero emissions)
 
 ## Tech Stack
-- HTML
-- CSS
-- JavaScript
+- Python
+- Tkinter (GUI Framework)
+
+## How It Works
+The system uses predefined emission factors (grams of CO₂ per km) for different transportation modes. Based on the user’s input distance and passenger count, the program calculates the estimated CO₂ emissions.
+
+## Example Vehicles Supported
+- Cars
+- Bus
+- Motorcycle
+- Airplanes
+- Ferry
+- Trains
+- Cargo Ships
+- Bicycle (zero emission)
 
 ## Purpose
-This project demonstrates environmental impact analysis using simple emission calculations and an interactive user interface.
+This project helps demonstrate how transportation choices impact carbon emissions and promotes environmentally conscious travel decisions.
